@@ -1,0 +1,13 @@
+server:
+  port: 44320
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
